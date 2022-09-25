@@ -7,6 +7,10 @@ Email: [lishenkovitaliy@gmail.com](mailto:lishenkovitaliy@gmail.com)<br />
 LinkedIn: [Vitalii Lishenko](https://www.linkedin.com/in/vitalii-lishenko/)<br />
 Portfolio: [lishenko.com](https://lishenko.com)<br />
 
+## Video Presentation
+Code Review: [Loom Link](https://www.loom.com/share/5767c3ca69094ba98dafec77687e8eae)<br />
+Design Review: [Loom Link](https://www.loom.com/share/00517827a8184226b0e7db3de9635a79)<br />
+
 ## Project Setup Instructions
 
 NODE Version: 16
