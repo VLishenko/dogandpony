@@ -4,8 +4,8 @@
 **Contact Information**
 
 Email: [lishenkovitaliy@gmail.com](mailto:lishenkovitaliy@gmail.com)<br />
-LinkedIn: [Vitalii Lishenko](https://www.linkedin.com/in/vitalii-lishenko/)
-Portfolio: [https://lishenko.com/](https://lishenko.com/)
+LinkedIn: [Vitalii Lishenko](https://www.linkedin.com/in/vitalii-lishenko/)<br />
+Portfolio: [https://lishenko.com/](https://lishenko.com/)<br />
 
 ## Project Setup Instructions
 
