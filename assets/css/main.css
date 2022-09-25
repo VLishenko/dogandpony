@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: sans-serif;
+      background-color: #E8EDF3;
+      overflow-y: scroll;
+      @apply text-dark-blue;
+    }
+}
+
+@layer components {
+    /* Form Inputs */
+    .form-input {   
+        @apply text-sm border border-grey outline-0 shadow-sm h-10 rounded px-3 focus:shadow-md focus:border-blue text-ellipsis;
+
+        position: relative;
+        background-position: calc(100% - 10px) center;
+        background-repeat: no-repeat;
+    }
+
+    .form-input.has-error {
+        background-image: url("../icons/ic-attention.svg");
+    }
+
+    .form-error {
+        @apply text-red text-xs mt-1;
+    }
+
+    .form-submit {
+        @apply text-white py-2 px-4 rounded bg-grey cursor-not-allowed;
+    }
+
+    .form-submit.is-active {
+        @apply bg-blue cursor-pointer hover:opacity-90;
+    }
+
+
+    /* Accordion */
+    .accordion {
+        @apply rounded-lg shadow-lg bg-white overflow-hidden;
+    }
+
+    .accordion-header {
+        @apply py-6 pl-6 pr-14 cursor-pointer;
+
+        position: relative;
+    }
+
+    .accordion-header-title {
+        @apply text-2xl font-bold;
+    }
+
+    .accordion-header-text {
+        @apply text-grey mt-1;
+    }
+
+    .accordion-header-ic {
+        @apply origin-center -mr-2 p-2 stroke-blue;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 18px;
+        margin: auto;
+        transition: transform .3s ease;
+    }
+
+    .accordion-body {
+        @apply px-8 py-0 h-0 invisible;
+
+        transition-property: height, visibility, padding-top, padding-bottom;
+        transition-timing-function: ease;
+        transition-duration: 0.5s;
+    }
+    .accordion.is-open .accordion-body {
+        @apply py-6 h-[230px] visible;
+    }
+
+    .accordion.is-open .accordion-header {
+        @apply bg-grey text-white;
+
+        transition-property: background-color;
+        transition-timing-function: ease;
+        transition-duration: 0.5s;
+    }
+
+    .accordion.is-open .accordion-header-text {
+        @apply text-white;
+    }
+
+    .accordion.is-open .accordion-header-ic {
+        @apply stroke-white -rotate-180;
+    }
+}
