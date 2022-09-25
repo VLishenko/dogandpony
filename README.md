@@ -3,7 +3,7 @@
 
 **Contact Information**
 
-Email: [lishenkovitaliy@gmail.com](mailto:lishenkovitaliy@gmail.com) \n
+Email: [lishenkovitaliy@gmail.com](mailto:lishenkovitaliy@gmail.com)<br />
 LinkedIn: [Vitalii Lishenko](https://www.linkedin.com/in/vitalii-lishenko/)
 Portfolio: [https://lishenko.com/](https://lishenko.com/)
 
